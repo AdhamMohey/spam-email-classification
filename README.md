@@ -32,3 +32,15 @@ The model predicts whether an email message is:
 
 ## 📂 Project Structure
 
+```text
+spam-email-classification/
+│
+├── app.py                    # Streamlit application
+├── dataset.csv               # Email dataset
+├── spam_model.pkl            # Trained ML model
+├── tfidf_vectorizer.pkl      # TF-IDF vectorizer
+├── training_notebook.ipynb   # Model training notebook
+├── requirements.txt          # Dependencies
+├── README.md                 # Project documentation
+└── .gitignore                # Ignored files
+
